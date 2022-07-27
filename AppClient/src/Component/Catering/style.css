@@ -1,0 +1,107 @@
+.cateringhead{
+    margin: 30px;
+}
+.cateringsbody {
+    display: flex;
+    column-gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cateringchild  {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px 2px rgb(188, 185, 185);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.cateringchild img {
+    width: 310px;
+    height: 310px;
+}
+.cateringchild h5 {
+    margin-top: 10px;
+}
+@media screen and (max-width:1290px){
+    .cateringchild img {
+        width: 280px;
+        height: 280px;
+    }
+}
+@media screen and (max-width:1210px){
+    .cateringchild img {
+        width: 240px;
+        height: 240px;
+    }
+}
+@media screen and (max-width:1000px){
+    .cateringchild  {
+        width: 40%;
+    }
+    .cateringchild img {
+        width: 310px;
+        height: 310px;
+    }
+}
+@media screen and (max-width:995px){
+    .cateringchild  {
+        width: 45%;
+    }
+    .cateringchild img {
+        width: 280px;
+        height: 280px;
+    }
+}
+@media screen and (max-width:771px){
+    .cateringchild  {
+        width: 45%;
+        height: 300px;
+    }
+    .cateringchild img {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:530px){
+    .cateringchild  {
+        width: 75%;
+        height: 400px;
+    }
+    .cateringchild img {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:445px){
+    .cateringchild  {
+        width: 90%;
+        height: 350px;
+    }
+    .cateringchild img {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:360px){
+    .cateringchild  {
+        width: 90%;
+        height: 350px;
+    }
+    .cateringchild img {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:325px){
+    .cateringchild  {
+        width: 90%;
+        height: 350px;
+    }
+    .cateringchild img {
+        width: 220px;
+        height: 220px;
+    }
+}

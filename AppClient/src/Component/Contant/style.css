@@ -1,0 +1,107 @@
+.Contantbody{
+    margin: 10px;
+}
+.contant{
+    display: flex;
+    margin-top: 50px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.contant img {
+    width: 35px;
+    height: 35px;
+}
+.contant .child {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 25%;
+    box-shadow: 1px 1px 3px 2px rgb(188, 185, 185);
+    padding: 20px;
+    height: 300px;
+}
+.help{
+    margin-top: 50px;
+}
+.contantForm{
+    margin-top: 30px;
+}
+.contantForm .Form1 {
+    display: flex;
+    margin-top: 30px;
+    column-gap: 20px;
+    
+}
+.contantForm .Form1 input {
+  width: 48%;
+  border-radius: 5px;
+  border: 2px solid rgb(223, 220, 220);
+  padding: 10px 20px;
+}
+.contantForm .Form1 textarea {
+  width: 98%;
+  border-radius: 5px;
+  border: 2px solid rgb(223, 220, 220);
+  padding: 10px 20px;
+}
+.contantbutton{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contantbutton button{
+    padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+    background: rgb(56, 131, 172);
+    border: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width : 1010px){
+    .contant .child {
+        height: 360px;
+        width: 30%;
+    }
+}
+@media screen and (max-width : 870px){
+    .contant .child {
+        height: 400px;
+        width: 30%;
+    }
+}
+@media screen and (max-width : 725px){
+    .contant{
+        flex-direction: column;
+    }
+    .contant .child {
+        height: 300px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width : 540px){
+    .contantForm .Form1 {
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contantForm .Form1 input {
+        width: 90%;
+      }
+}
+@media screen and (max-width : 350px){
+    .contant{
+        flex-direction: column;
+    }
+    .contant .child {
+        height: 400px;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}

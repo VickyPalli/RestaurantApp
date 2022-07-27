@@ -1,0 +1,118 @@
+.heading{
+    margin: 30px 50px;
+}
+.vegetarian{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.CartSection{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 3px 2px rgb(188, 185, 185);
+  padding: 13px;
+  height: 585px;
+  
+}
+.CartSection img{
+    width: 270px;
+    height: 260px;
+}
+.cart img{
+ margin-top: 10px;
+}
+.cartsecond{
+    margin-top: 10px;
+}
+.cartsecond h6{
+    background-color: rgb(120, 222, 120);
+    display: inline-block;
+    border-radius: 0;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+.cartbutton{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartbutton button{
+    padding: 6px;
+    border-radius: 10px;
+    background: rgb(56, 131, 172);
+    border: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+@media screen and (max-width : 720px){
+    .CartSection img{
+        width: 420px;
+        height: 420px;
+    }
+    .CartSection {
+        width: 450px;
+        height: 680px;
+    }
+    .vegetarian{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width : 480px){
+    .CartSection img{
+        width: 320px;
+        height: 320px;
+    }
+    .CartSection {
+        width: 350px;
+        height: 600px;
+    }
+    .vegetarian{
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width : 385px){
+    .CartSection img{
+        width: 230px;
+        height: 230px;
+    }
+    .CartSection {
+        width: 250px;
+        height: 560px;
+    }
+    .vegetarian{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+}
+.vegetarianfoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 0px;
+}

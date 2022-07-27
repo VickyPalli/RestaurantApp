@@ -1,0 +1,64 @@
+.profile{
+    margin: 30px;
+}
+.email{
+    margin: 20px;
+    font-weight: 500;
+}
+.profile button{
+    padding: 5px;
+ border-radius: 20px;
+ background: rgb(56, 131, 172);
+ border: none;
+ color: white;
+ margin-top: 15px;
+ font-size: 10px;
+ border-radius: 5px;
+}
+.Profileform{
+    width: 40vw;
+    height: 55vh;
+}
+textarea{
+    padding: 5px 10px;
+}
+.heading input {
+    position: absolute;
+    display: none;
+}
+.heading label {
+    padding: 5px;
+    border-radius: 20px;
+    background: rgb(56, 131, 172);
+    border: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.heading img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.heading button{
+    padding: 5px;
+    border-radius: 20px;
+    background: rgb(56, 131, 172);
+    border: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+span{
+    margin-bottom: 10px;
+}
+.Adrees{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Adrees .address{
+    width: 200px;
+}

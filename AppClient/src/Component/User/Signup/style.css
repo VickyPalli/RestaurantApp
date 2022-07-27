@@ -1,0 +1,77 @@
+*{
+    border-radius: 10px;
+}
+.hide{
+ position: absolute;
+ display: none;
+}
+.display{
+  z-index: 1;
+  color: red;
+  margin: 10px auto;
+}
+.registersection{
+    display: flex;
+    justify-content: space-between;
+}
+.RegisterPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../Images/Background.jpg");
+    background-size: cover;
+}
+.Register{
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    border: 5px solid rgb(182, 227, 116);
+}
+.Register input {
+    height: 35px;
+    border: none;
+}
+.registerbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registerbutton button {
+    padding: 5px 30px;
+    background-color: rgb(156, 231, 231);
+    color: black;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+}
+.Register .form{
+    width: 80%;
+    margin: 10px auto;
+}
+.Register .form .part1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.Register .formbotton{
+    width: 80%;
+    margin: 0 auto;
+}
+.Register h3{
+    margin-left: 30px;
+}
+.Register span{
+    margin-right: 10px;
+}
+.registerbotton{
+    display: flex;
+    margin: 5px auto;
+}
+.Hover:hover , .Register span:hover{
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,72 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+input{
+    padding-left: 15px;
+}
+/* Navbar Styling */
+.Extra{
+    cursor: pointer;
+}
+.Logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+   
+}
+.NavBar{
+    background-color: black;
+    border-radius: 0;
+}
+.BUtton{
+    color: white;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+.bi-cart2{
+    color: white;
+}
+/*  MainSetion Styling*/
+.Mainsection{
+    background-image: url(/src/Component/Images/Background.jpg);
+    height: 70vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-size: cover;
+}
+.Mainsection h1{
+ color: white;
+ font-size: 50px;
+ margin-bottom: 30px;
+}
+.Mainsection li{
+    color: white;
+ font-size: 20px;
+ margin-top: 0.5vmin;
+ font-weight: 500;
+}
+.Mainsection button{
+ padding: 10px;
+ border-radius: 20px;
+ background: rgb(56, 131, 172);
+ border: none;
+ color: white;
+ margin-top: 15px;
+ font-size: 17px;
+}
